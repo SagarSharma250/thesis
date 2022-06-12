@@ -1,0 +1,25 @@
+.search-body {
+  position: absolute;
+  margin-top: 60px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  height: 91.2%;
+
+  background-color: #e6e6fa;
+}
+.input-student {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  border-color: blue;
+  padding-left: 15px;
+  font-size: large;
+}
+
+.input-student:focus {
+  outline: none;
+  box-shadow: none;
+}

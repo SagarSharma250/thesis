@@ -1,0 +1,19 @@
+.body {
+  position: absolute;
+  margin-top: 60px;
+  background-image: url(college.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: lightblue;
+  height: 91.2%;
+  width: 100%;
+}
+.title-block {
+  margin-top: 4%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  justify-content: flex-end;
+  color: blue;
+}
