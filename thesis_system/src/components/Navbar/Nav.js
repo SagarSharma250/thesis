@@ -1,54 +1,47 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "./styles/Nav.css";
-
 //import icons from react-icons
-import { IoMdPerson, IoMdPersonAdd } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
-import { CgUserList } from "react-icons/cg";
-//import { GrUserAdmin } from "react-icons/gr";
-import { RiAdminFill } from "react-icons/ri";
+
 
 export default function Nav() {
-  const [colour, setColour] = useState("darkblue");
   return (
-    <nav className="Nav-bar">
-      <div className="Nav-members">
-        <img className="logo" src="tu.png" alt="logo" />
-
-        <div className="name-block">Tribhuvan University</div>
-        <ul className="Nav-items">
-
-        <li className="Nav-links">
-            <NavLink to="/student" activeStyle={{ color: colour }}>
-              <IoMdPersonAdd size={30} />
-            </NavLink>
-          </li>
-          <li className="Nav-links">
-            <NavLink to="/studentlist" activeStyle={{ color: colour }}>
-              <IoMdPerson size={30} />
-            </NavLink>
-          </li>
-         
-
-          <li className="Nav-links">
-            <NavLink to="/search" activeStyle={{ color: colour }}>
-              <FaSearch size={30} />
-            </NavLink>
-          </li>
-
-          <li className="Nav-links">
-            <NavLink to="/resultlist" activeStyle={{ color: colour }}>
-              <CgUserList size={30} />
-            </NavLink>
-          </li>
-          <li className="Nav-links">
-            <NavLink to="/admin"  activeStyle={{ color: colour }}>
-              <RiAdminFill size={30} />
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <React.Fragment>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
+            Pulchowk Campus
+          </a>
+          <ul className="Nav-items">
+            <li className="Nav-links">
+              <NavLink to="/student">
+                <button className="btn btn-secondary">Add Students</button>
+              </NavLink>
+            </li>
+            <li className="Nav-links">
+              <NavLink to="/studentlist">
+                <button className="btn btn-secondary">Student list</button>
+              </NavLink>
+            </li>
+            <li className="Nav-links">
+              <NavLink to="/search">
+                <FaSearch size={30} />
+              </NavLink>
+            </li>
+            <li className="Nav-links">
+              <NavLink to="/resultlist">
+                <button className="btn btn-secondary">Result List</button>
+              </NavLink>
+            </li>
+            <li className="Nav-links">
+              <NavLink to="/admin">
+                <button className="btn btn-secondary">Admin</button>
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </React.Fragment>  
   );
 }

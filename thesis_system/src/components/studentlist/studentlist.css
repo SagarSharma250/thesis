@@ -1,5 +1,5 @@
 h2 {
-  color: blue;
+  color: royalblue;
   margin-left: 20px;
   margin-top: 30px;
 }
@@ -24,7 +24,7 @@ h2 {
   border-radius: 10px;
   padding: 10px;
   display: flex;
-  border: 2px solid blue;
+  border: 2px solid rgb(68, 68, 73);
   list-style: none;
   position: relative;
   margin: 20px 20px 0px 20px;
@@ -42,8 +42,8 @@ h2 {
 .button {
   transition-duration: 0.4s;
   border-radius: 8px;
-  border: 2px solid blue;
-  background-color: blue;
+  border: 2px solid rgb(68, 68, 73);
+  background-color: royalblue;
   color: white;
   margin-right: 15px;
   height: 30px;
@@ -58,14 +58,13 @@ h2 {
 }
 
 .button:hover {
-  background-color: white;
+  background-color: royalblue;
   color: blue;
 }
 
 .Date2 {
   position: relative;
   width: 100%;
-  background-color: darkblue;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -10,15 +10,15 @@
   flex-direction: row;
 
   overflow: scroll;
-  background-color: #e6e6fa;
+  background-color: white;
 }
 .selected-button {
   width: 100%;
-  background-color: darkblue;
+  background-color: royalblue;
 }
 .selected-button:focus {
   width: 100%;
-  background-color: darkblue;
+  background-color: royalblue;
   outline: none;
   box-shadow: none;
 }
@@ -31,7 +31,7 @@
 }
 .choice-button {
   width: 100%;
-  background-color: blue;
+  background-color: rgb(100, 97, 104);
 }
 .admin-border {
   position: relative;
@@ -55,7 +55,7 @@
   height: 35px;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: rgb(100, 97, 104);
   font-size: large;
   font-weight: bold;
   color: white;
@@ -121,7 +121,7 @@
   background-color: #e6e6fa;
 }
 .Teacher-id {
-  color: blue;
+  color: rgb(28, 28, 30);
   margin-left: 15%;
   font-size: large;
   font-weight: bold;

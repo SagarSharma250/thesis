@@ -1,19 +1,39 @@
-.body {
-  position: absolute;
-  margin-top: 60px;
-  background-image: url(college.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-color: lightblue;
-  height: 91.2%;
-  width: 100%;
+.big-text {
+  font-size: 52px;
+  margin: 20px 0;
+  color: #ff8c00
 }
-.title-block {
-  margin-top: 4%;
-  text-align: center;
-  font-size: xx-large;
-  font-weight: bold;
-  justify-content: flex-end;
-  color: blue;
+
+.btn-first {
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px
+}
+
+.btn-first {
+  background-color: #ff8c00;
+  color: #fff
+}
+
+.btn-first:hover {
+  background: #ff8c00;
+  border: none;
+  color: #fff;
+  box-shadow: 5px 5px 10px #999;
+  transition: .3s
+}
+
+.banner-info {
+  margin: 100px 0
+}
+
+.banner-image {
+  margin: 30px 0
+}
+
+.tu_logo {
+  height: 400px;
+  width: 380px;
+  margin: 60px 0
 }
